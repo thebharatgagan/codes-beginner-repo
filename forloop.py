@@ -1,4 +1,4 @@
-#using for loop ;
+# #using for loop ;
 
 # Example 1: Simple for loop to print numbers from 1 to 10
 for i in range (1,11):
@@ -32,3 +32,4 @@ for i in range(1,11):
 # Example 6: for loop to printing the reverse pattern printing;
 for i in range(11, 1, -1):
     print("*" * i)
+    
