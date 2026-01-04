@@ -33,7 +33,7 @@ c = add(10, 20) # 20 is overidden at (b = 10)
 print(c)
 
 
-#3. Keyword Arguments --> It means you can give specific parameter to specific arguments:
+#3. Keyword Arguments --> It means you can give any specific parameter to any specific arguments:
 def add(a , b, c = 10):
     x = a + b + c
     return x
