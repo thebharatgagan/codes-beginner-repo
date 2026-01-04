@@ -1,28 +1,28 @@
-# # Using Defining function:
+# Using Defining function:
 
-# a = 10
-# b = 20
-# c = 30
+a = 10
+b = 20
+c = 30
 
-# average = (a + b + c)/3
-# print(average)
+average = (a + b + c)/3
+print(average)
 
-# #using (def) keyword --> with defining the function:
+#using (def) keyword --> with defining the function:
 
-# def average(a, b, c):
-#     d = (a + b + c)/3
-#     print(d)
+def average(a, b, c):
+    d = (a + b + c)/3
+    print(d)
     
-# average(3, 5, 6)
+average(3, 5, 6)
 
 #function arguments and return values:
 
 #1. Possible Arguments
-# def add(a, b): # (a ,b) are parameters
-#     x = a + b
-#     return x
-# c = add(6, 9) # (6, 9) are argument of parameters:
-# print(c)
+def add(a, b): # (a ,b) are parameters
+    x = a + b
+    return x
+c = add(6, 9) # (6, 9) are argument of parameters:
+print(c)
 
 
 #2. Default Arguments --> It means parameter already have a default values, it can be overridden also:
