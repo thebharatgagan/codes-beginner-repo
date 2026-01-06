@@ -18,7 +18,7 @@ average(3, 5, 6)
 #function arguments and return values:
 
 #1. Possible Arguments
-def add(a, b): # (a ,b) are parameters
+def add(a, b): # (a ,b) are parameters:
     x = a + b
     return x
 c = add(6, 9) # (6, 9) are argument of parameters:

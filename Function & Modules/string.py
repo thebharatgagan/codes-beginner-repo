@@ -39,6 +39,7 @@ print(name.lower()) # Output --> hello world
 print(name.title()) #Output --> Hello World
 
 # To finding and replacing the text in string:
+
 #using .find() and .replace() function respectively:
 
 text = "Python is loved and good language."
